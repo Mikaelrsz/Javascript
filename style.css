@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to bottom, #1e3a8a, #3b82f6);
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 30px 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+div {
+    text-align: center;
+    margin: 15px 0;
+    padding: 8px;
+}
+
+#res {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    min-height: 320px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#res strong {
+    color: #1e40af;
+    font-size: 1.1em;
+}
+
+#foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 120px;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
